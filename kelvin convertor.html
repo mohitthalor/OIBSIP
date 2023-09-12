@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta lang="en-US">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Temperature Convertor.css">
+    <script src="Temperature Convertor.js"></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        Kelvin Convertor
+    </title>
+</head>
+
+<body>
+
+
+    <div onmouseover="cont()" onmouseleave="backcont()" id="cnt" class="container">
+        <div class="title">
+            <h1>Kelvin Convertor</h1>
+            <span class="temepature-icon"><i class="fa-solid fa-temperature-list"></i></span>
+        </div>
+
+        <div id="kelvin">
+            <input oninput="kc()" id="kelvin-input" type="number" placeholder="Enter Temperature in kelvin">
+        </div>
+        <span id="icon" class="icon">&#8490</span>
+
+        <div id="celcius">
+            <p id="celcius-output"></p>
+        </div>
+        <span id="icon" class="icon">&#8451</span>
+
+        <div id="fehrenheit">
+            <p id="fehrenheit-output"></p>
+        </div>
+        <span id="icon" class="icon">&#8457</span>
+
+
+        <div class="button">
+            <a href="Temperature Convertor.html"><button id="clear-btn">Back</button></a>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
