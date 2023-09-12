@@ -1,0 +1,209 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width:100%;
+    height:310px;
+    background-image: url(./images/header\ img.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px 10px;
+    float: left;
+}
+
+#name{
+    font-size: 65px;
+    font-family: gill sans;
+    font-weight: bold;
+    float: left;
+    margin-top: 110px;
+    margin-left: 580px;
+    color: rgb(255, 255, 255);
+}
+
+#about-box{
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-color: rgba(207, 225, 255, 0.733);
+
+}
+
+#my-img-box{
+    width:300px;
+    height:300px;
+    box-sizing: border-box;
+    border-radius: 500px;
+    float: left;
+    background-image: url(./images/123456.jpg);
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 8px 0px;
+}
+
+#about-title{
+    width:850px;
+    height: 40px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+#about{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+#about-text-box{
+    float: left;
+    margin-top: 50px;
+    margin-left: 150px;
+    width:800px;
+    height:100px;
+}
+
+#about-text{
+    text-align: justify;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+#social-media-box{
+    width: 100%;
+    height:90px;
+    float: left;
+}
+
+#instagram{
+    width:50px;
+    height: 50px;
+    background-image: url(./images/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+    margin-left: 650px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 15px;
+}
+
+#linkedin{
+    width:50px;
+    height: 50px;
+    background-image: url(./images/pngwing.com\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 15px;
+}
+
+#gmail{
+    width:50px;
+    height: 50px;
+    background-image: url(./images/pngwing.com\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 15px;
+}
+
+#project-title-box{
+    width: 100%;
+    height: 120px;
+    float: left;
+    background-image: url(./images/Screenshot\ \(165\).png);
+    background-position: center;
+}
+
+#project-box{
+    width:100%;
+    height: 450px;
+    float: left;
+}
+
+#project-1{
+    width:500px;
+    height: 350px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#project-1-img{
+    width:498px;
+    height: 280px;
+    
+    background-size: contain;
+    box-shadow: 0px 0px 15px 0px;
+    
+}
+
+#project-1-text{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:rgb(72, 72, 72);
+    margin-top: 20px;
+    margin-left:60px;
+}
+
+#project-2{
+    width:500px;
+    height: 350px;
+    float: left;
+    margin-left: 170px;
+    margin-top: 50px;
+}
+
+#project-2-img{
+    width:497px;
+    height: 280px;
+    background-image: url(./images/Screenshot\ \(164\).png);
+    background-size: contain;
+    box-shadow: 0px 0px 15px 0px;
+}
+
+#contact-box{
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: rgba(207, 225, 255, 0.532);
+}
+
+#contact-title{
+    font-size: 50px;
+    font-family: gill sans;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 49%;
+}
+
+#map{
+    width:400px;
+    height: 300px;
+    float: left;
+    box-shadow: 0px 0px 8px 0px;
+    margin-left:170px;
+    margin-top:50px;
+    border: 0px rgb(167, 167, 167) solid;
+}
+
+#contact-text{
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-left: 50%;
+    margin-top: 50px;
+}
